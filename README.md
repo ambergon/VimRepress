@@ -1,3 +1,18 @@
+#About this version
+
+This version VimRepress is customized below.
+
+* Python-markdown official extension 'markdown.extensions.extra' available. Detail is [here](http://pythonhosted.org/Markdown/extensions/extra.html).
+* Python-markdown official extension 'markdown.extensions.nl2br' available. Detail is [here](http://pythonhosted.org/Markdown/extensions/nl2br.html).
+* Python-markdown third-party extension 'custom_span_class' available. Detail is [here](https://github.com/exaroth/mdx_custom_span_class).
+* Edit new buffer opened with tabnew.
+
+For depending on **third-party extension 'custom_span_class'**, you must install the plugin, in addition to python-markdown that is needed originally. You can reference at [this page](https://github.com/exaroth/mdx_custom_span_class) how to install the plugin.
+
+Original version documents is below.
+
+----
+
 #Welcome
 VimRepress is a plugin for managing WordPress blog from Vim, using Markdown syntax.
 
