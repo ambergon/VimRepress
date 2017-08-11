@@ -24,7 +24,7 @@ VimRepress is a plugin for managing WordPress blog from Vim, using Markdown synt
  * WordPress.com account supported.
  * Multiple account supported.
 
-##Commands Reference
+## Commands Reference
  * BlogList     [post|page]
  * BlogNew      [post|page]
  * BlogSave     [publish|draft]
@@ -37,7 +37,7 @@ VimRepress is a plugin for managing WordPress blog from Vim, using Markdown synt
   (Commands with a `*`, argument must be present.)
 
 
-##CONFIGURE
+## CONFIGURE
 
 Create file `~/.vimpressrc` in the following format:
 
@@ -61,7 +61,7 @@ Hardcoding the password is optional. If a password is not provided the plugin wi
 
 `store_markdown` is also optional. If not specified then Markdown text will be stored in custom fields of WordPress. If set to `n` then the Markdown text will not be stored.
 
-###For Upgraded Users
+### For Upgraded Users
 
 Defining account info in `.vimrc` is now obsolesced, if you have correspond defination in `.vimrc` (for older version vimpress), they will automaticly copied into `~/.vimpressrc`, now you're safe to remove the VIMPRESS defination in `.vimrc`.
 
