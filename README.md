@@ -1,4 +1,4 @@
-#About this version
+# About this version
 
 This version VimRepress is customized below.
 
@@ -11,10 +11,10 @@ For depending on **third-party extension 'custom_span_class'**, you must install
 
 Original version documents is below.
 
-#Welcome
+# Welcome
 VimRepress is a plugin for managing WordPress blog from Vim, using Markdown syntax.
 
-##Features
+## Features
  * NEW/EDIT/DELETE WordPress Posts/Pages.
  * In both Markdown / HTML format.
  * Markdown text can be configured to be stored in the custom fields of WordPress.
