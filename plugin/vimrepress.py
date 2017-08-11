@@ -425,7 +425,9 @@ class ContentStruct(object):
                     struct["custom_fields"].append(field)
 
             struct["description"] = self.html_text = markdown.markdown(rawtext, \
-                    extensions=['markdown.extensions.extra'])
+                    extensions=['markdown.extensions.extra', \
+                    'markdown.extensions.nl2br', \
+                    'custom_span_class'])
         else:
             struct["description"] = self.html_text = rawtext
 
