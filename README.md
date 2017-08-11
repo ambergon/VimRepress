@@ -11,8 +11,6 @@ For depending on **third-party extension 'custom_span_class'**, you must install
 
 Original version documents is below.
 
-----
-
 #Welcome
 VimRepress is a plugin for managing WordPress blog from Vim, using Markdown syntax.
 
