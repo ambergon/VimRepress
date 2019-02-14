@@ -58,7 +58,7 @@ class VimPressException(Exception):
 class DataObject(object):
 
     #CONST
-    DEFAULT_LIST_COUNT = "15"
+    DEFAULT_LIST_COUNT = "100"
     IMAGE_TEMPLATE = '<a href="%(url)s">' \
                      '<img title="%(file)s" alt="%(file)s" src="%(url)s"' \
                      ' class="aligncenter" /></a>'
