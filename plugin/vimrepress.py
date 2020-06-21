@@ -426,8 +426,12 @@ class ContentStruct(object):
 
             struct["description"] = self.html_text = markdown.markdown(rawtext, \
                     extensions=['markdown.extensions.extra', \
-                    'markdown.extensions.nl2br', \
-                    'custom_span_class'])
+                    'markdown.extensions.nl2br'])
+                    #一時的に隔離
+                    #名前の変更か？
+                    #spanを使うか確かめる
+                    #, \
+                    #'custom_span_class'])
         else:
             struct["description"] = self.html_text = rawtext
 
