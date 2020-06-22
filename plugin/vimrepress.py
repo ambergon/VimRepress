@@ -619,7 +619,8 @@ def blog_wise_open_view():
         del vim.current.buffer[:]
         vim.command('setl nomodified')
     else:
-        vim.command(":tabnew")
+        vim.command(":enew")
+        #vim.command(":tabnew")
     vim.command('setl syntax=md_blogsyntax')
     vim.command('setl completefunc=vimrepress#CateComplete')
 
