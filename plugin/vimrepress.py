@@ -427,7 +427,8 @@ class ContentStruct(object):
             struct["description"] = self.html_text = markdown.markdown(rawtext, \
                     extensions=['markdown.extensions.extra', \
                     'markdown.extensions.nl2br', \
-                    'mdx_custom_span_class'])
+                    'a_markdown_simple', \
+                    'a_markdown_fence'])
         else:
             struct["description"] = self.html_text = rawtext
 
