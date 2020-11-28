@@ -429,6 +429,7 @@ class ContentStruct(object):
                     'markdown.extensions.nl2br', \
                     'a_markdown_simple', \
                     'a_markdown_fence'])
+
         else:
             struct["description"] = self.html_text = rawtext
 
