@@ -428,6 +428,8 @@ class ContentStruct(object):
                     extensions=['markdown.extensions.extra', \
                     'markdown.extensions.nl2br', \
                     'a_markdown_simple', \
+                    'markdown.extensions.admonition', \
+                    'a_markdown_details', \
                     'a_markdown_fence'])
 
         else:
